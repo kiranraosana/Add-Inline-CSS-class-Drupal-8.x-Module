@@ -1,0 +1,12 @@
+<?php
+
+function add_inline_css_page_attachments_alter(array &$page) {
+    $background_color = '#000';
+    $page['#attached']['html_head'][] = [
+      [
+        '#tag' => 'style',
+        '#value' => '.custom-inline-class { background: ' . $background_color . '; }',
+      ],
+      'custom-inline-class'
+    ];
+  }

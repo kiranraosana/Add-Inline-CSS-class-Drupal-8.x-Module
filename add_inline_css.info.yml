@@ -1,0 +1,5 @@
+name: Add Inline CSS styling
+description: Adding global inline css styling
+type: module
+core: 8.x
+version: '8.x-1.dev'
